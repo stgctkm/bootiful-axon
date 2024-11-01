@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: bootiful-query
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5444/mydatabase
+    username: myuser
+    password: secret
+  sql:
+    init:
+      mode: always
+
+axon:
+  serializer:
+    general: jackson
+
+server:
+  port: 9092
